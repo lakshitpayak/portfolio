@@ -99,3 +99,10 @@ button{
     cursor:pointer;
 
 }
+button:hover{
+
+    background:rgba(120,0,0,.45);
+
+    box-shadow:0 0 35px red;
+
+}
