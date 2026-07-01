@@ -78,3 +78,24 @@ body{
     font-size:90px;
 
 }
+button{
+
+    width:340px;
+
+    height:70px;
+
+    margin-top:25px;
+
+    background:rgba(0,0,0,.35);
+
+    border:1px solid rgba(255,0,0,.4);
+
+    color:white;
+
+    font-size:28px;
+
+    letter-spacing:4px;
+
+    cursor:pointer;
+
+}
