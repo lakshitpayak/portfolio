@@ -1,1 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+
+    background:#000;
+
+    color:white;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    overflow:hidden;
+
+}
+
+.boot-screen{
+
+    text-align:center;
+
+}
+
+.boot-screen h1{
+
+    font-size:70px;
+
+    letter-spacing:8px;
+
+    margin-bottom:15px;
+
+}
+
+.boot-screen h2{
+
+    color:#888;
+
+    font-weight:300;
+
+    margin-bottom:30px;
+
+    letter-spacing:5px;
+
+}
+
+.boot-screen p{
+
+    color:#666;
+
+    margin-bottom:60px;
+
+}
+
+button{
+
+    width:240px;
+
+    padding:18px;
+
+    margin:12px;
+
+    background:none;
+
+    border:2px solid #444;
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+button:hover{
+
+    border-color:#8b0000;
+
+    color:#8b0000;
+
+    box-shadow:0 0 20px #8b0000;
+
+}
+
+.exit{
+
+    border-color:#333;
+
+}
